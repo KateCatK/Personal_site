@@ -1,0 +1,35 @@
+body{
+    background-color: #f1f6f9;
+}
+
+hr {
+    width: 50px;
+    border-top: 10px dotted #14274e;
+}
+
+#personal_info{
+    font-size: 24pt; 
+    width: 1050px;
+}
+
+#personal_info strong{
+    font-style: italic;
+}
+
+.about{
+    font-size: 23pt;
+    margin-top: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+.adv{
+    font-size: 19pt;
+}
+
+.contact{
+    text-decoration: none;
+}
+
+.contact:hover{
+    background-color: #768dbd;
+}

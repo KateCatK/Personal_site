@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    .ar{
+        float: left;
+        height: 25px;
+        margin-left: 30px;
+        cursor: pointer;
+    }
+    body{
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+    }
+    @media screen and (min-device-width: 1000px) {
+        .parallax {
+            background-image: url("./assets/img/paralax.jpg");
+            min-height: 500px; 
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+    @media screen and (max-device-width: 999px) {
+        .parallax {
+            background-image: url("./assets/img/paralax.jpg");
+            background-size:contain;
+            min-height: 500px; 
+        }
+    }
+    p{
+        font-size: 13pt;
+        margin: 60px 0;
+    } 
+    .down{
+        height: auto;
+        background-color: #0a091d;
+        font-size: 15pt;
+        color:white;
+        padding: 70px 20%;
+    }
+</style>
+</head>
+<body>
+<a href="responsive-flex.html"><img class="ar" src="./assets/img/arrow.png"></a>
+<h2>Дизайн це неймовірно, варто лише спробувати</h2>
+
+<div class="parallax"></div>
+
+<div class="down">
+   <h1>Дизайнер – професія майбутнього</h1>
+   <p>Професія дизайнера настільки різнобічна, що знайти робоче місце взагалі нескладно, особливо для хорошого спеціаліста. Тому для графічного дизайнера важливо постійно займатися самоосвітою, 
+       удосконалювати існуючі навики та вивчати нові. Варто також слідкувати за сучасними тенденціями, розробками колег, відвідувати тематичні семінари та виставки.</p>
+    <p>Головна з переваг роботи дизайнера – це можливість працювати як на фрілансі, дистанційно, або у офісі. Дизайнер завжди має куди рости і як покращувати свої навики. До того ж, заробітна 
+        плата дизайнера вважається однією із найвищих в нашій країні.</p>
+    <p>Дизайнер – планує, проєктує, розробляє та створює графічний матеріал. Але дизайнера-універсала практично не існує, адже ця професія застосовується до різних сфер людської діяльності. 
+        Звичними для нас уже давно стали дизайнери інтер’єрів, ландшафту, одягу, веб-сайту.</p>
+</div>
+
+</body>
+</html>
