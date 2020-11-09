@@ -14,7 +14,7 @@
         font-family: 'Open Sans', sans-serif;
         text-align: center;
     }
-    @media screen and (min-device-width: 1000px) {
+    @media all and (min-device-width: 1000px) {
         .parallax {
             background-image: url("./assets/img/paralax.jpg");
             min-height: 500px; 
@@ -24,11 +24,12 @@
             background-size: cover;
         }
     }
-    @media screen and (max-device-width: 999px) {
+    @media all and (max-device-width: 999px) {
         .parallax {
             background-image: url("./assets/img/paralax.jpg");
-            background-size:contain;
+            background-size:cover;
             min-height: 500px; 
+            background-repeat: no-repeat;
         }
     }
     p{
